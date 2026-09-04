@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Brimborium.Matschburg.Library/Brimborium.Matschburg.Library.csproj" />
+  <Project Path="Brimborium.Matschburg.Test/Brimborium.Matschburg.Test.csproj" />
+  <Project Path="Brimborium.Matschburg/Brimborium.Matschburg.csproj" />
+</Solution>

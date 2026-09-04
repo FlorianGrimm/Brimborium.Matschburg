@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Build.Locator" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.Common" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.MSBuild" ExcludeAssets="runtime" />
+    <PackageReference Include="TUnit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Brimborium.Matschburg\Brimborium.Matschburg.csproj" />
+    <ProjectReference Include="..\Brimborium.Matschburg.Library\Brimborium.Matschburg.Library.csproj" />
+  </ItemGroup>
+</Project>
